@@ -1,0 +1,7 @@
+[project]
+name = "uvmoondream"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["transformers>=4.51.1", "torch>=2.7.0", "accelerate>=1.10.0", "Pillow>=11.0.0",]
