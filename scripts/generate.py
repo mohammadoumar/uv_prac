@@ -4,7 +4,11 @@ from codecarbon import EmissionsTracker
 tracker = EmissionsTracker(
     project_name="uvmoondream",
     output_dir="emissions",
+    output_file="emissions_x.csv",
+    save_to_file=True,
     #country_iso_code="FR",
+    # output_file: Optional[str] = _sentinel,
+    # save_to_file: Optional[bool] = _sentinel,
 )
 
 tracker.start()

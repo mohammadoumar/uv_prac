@@ -17,3 +17,6 @@ wheels/
 *.bmp
 *.svg
 *.ico   
+
+*.out
+*.log
